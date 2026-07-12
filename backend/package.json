@@ -1,0 +1,18 @@
+{
+  "name": "trackline-backend",
+  "version": "1.0.0",
+  "description": "Backend for Trackline: stores tasks and sends real push notifications when they're due.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "generate-vapid": "web-push generate-vapid-keys"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "luxon": "^3.4.4",
+    "node-cron": "^3.0.3",
+    "web-push": "^3.6.7"
+  }
+}
